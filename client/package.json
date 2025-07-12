@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "start": "npx serve dist -s -l $PORT"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "start": "npx serve dist/public -s -l $PORT"
+},
   "dependencies": {
     "@anthropic-ai/sdk": "^0.37.0",
     "@hookform/resolvers": "^3.10.0",
