@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Bot, Paperclip, Image, Mic, Send } from "lucide-react";
-import chatbotIcon from "@assets/Frame_1751633918219.png";
+import chatbotIcon from "../../../../attached_assets/Frame_175163918219.png";
 
 interface Message {
   id: string;
